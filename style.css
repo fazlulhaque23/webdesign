@@ -1,0 +1,15 @@
+p{
+    color: brown;
+    background-color: crimson;
+    height: auto;
+}
+h1{
+    color: darkgoldenrod;
+    background-color: darkorchid;
+    font-family: serif;
+
+}
+img{
+    height: 50%;
+    width: 35%;
+}

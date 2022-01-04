@@ -109,6 +109,13 @@ li:nth-child(1st){
  h1::after{
      content: "am I ??";
  }
+body{
+    counter-reset: section ;
+}
+p::before{
+    counter-increment: section;
+    content: " ❤️ " counter(section) ";";
+}
     </style>
 </head>
 <body bgcolor="#DCDBE6">
@@ -118,20 +125,21 @@ li:nth-child(1st){
     <h2>permanent friend circle</h2>
     <h1 class="special"> Classmates </h1>
 </center>
-     <p> Email </p>
+     Email 
     <input name="email" type="text">
     <br>
-    <p> password </p>
+     password 
     <input name="password" type="text">
     <div>
     <ul>
-        <li>Ratul Hasan</li>
-        <li>Shuaib Islam</li>
-        <li id="ovi">Saifur Rahman </li>
-        <li>Shakshar Chakroborty</li>
-        <li id="raad">Raad Shibly</li>
-        <li>Emon khan</li>
-        <li>Raiyan</li>
+        
+        <p>Ratul Hasan</p>
+        <p>Shuaib Islam</p>
+        <p id="ovi">Saifur Rahman </p>
+        <p>Shakshar Chakroborty</p>
+        <p id="raad">Raad Shibly</p>
+        <p>Emon khan</p>
+        <p>Raiyan</p>
     </ul>
     </div>
     <br>
